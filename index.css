@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==);
+    background-repeat: no-repeat;
+  background-size: auto;
+    
+}
+input{
+    font-size: 20px !important;
+   
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+}
+button{
+    font-size: 20px !important;
+}
+body{
+    width:90%;
+}
+#show{
+   font-size: 16px;
+}
+.container{
+    display: flex;
+}
+.table{
+    width: 600px;
+    margin-left: 20px;
+}
+.table td{
+    color: rgb(82, 74, 74);
+}
+@media (max-width:400px){
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+       
+    }
+    .form{
+        width: 300px;
+    }
+    .table{
+        width: 300px;
+    }
+}
+@media (min-width:400px) and (max-width:700px){
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+       
+    }
+    .form{
+        width: 400px;
+    }
+    .table{
+        width: 400px;
+        
+    }
+   
+
+}
